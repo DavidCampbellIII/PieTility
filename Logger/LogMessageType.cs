@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum LogMessageType
+namespace PieTility
 {
-    DEFAULT, WARNING, ERROR
+    public enum LogMessageType
+    {
+        DEFAULT, WARNING, ERROR
+    }
 }
