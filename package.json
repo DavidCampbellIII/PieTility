@@ -4,9 +4,6 @@
   "displayName": "PieTility",
   "description": "Unity development utilities and tools I've created over the years",
   "unity": "2018.3",
-  "dependencies": {
-    "com.domybest.mybox": "1.7.0"
-  },
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
