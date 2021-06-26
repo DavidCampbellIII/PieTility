@@ -21,13 +21,13 @@ namespace PieTility
         {
             if (resolution <= 1)
             {
-                Debug.LogError("Bezier curves must have at least 2 vertices");
+                PieLogger.LogError("Bezier Curve Resolution", "Bezier curves must have at least 2 vertices");
                 return;
             }
 
-            if(handles.Length != 4)
+            if(handles?.Length != 4)
             {
-                Debug.LogError("Beizer curve requires EXACTLY 4 handles to work correctly!");
+                PieLogger.LogError("Bezier Curve Handles", "Beizer curve requires EXACTLY 4 handles to work correctly!");
                 return;
             }
 

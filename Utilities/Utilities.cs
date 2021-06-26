@@ -150,15 +150,19 @@ namespace PieTility
 
         #region Color
 
-        public static string ColorToHexString(Color color)
+        public static string ColorToHexString(Color color, bool includePound=false)
         {
             string rr = FloatRGBToInt(color.r).ToString("X");
             string gg = FloatRGBToInt(color.g).ToString("X");
             string bb = FloatRGBToInt(color.b).ToString("X");
             string aa = FloatRGBToInt(color.a).ToString("X");
 
-            StringBuilder builder = new StringBuilder(rr);
-            builder.Append(gg).Append(bb).Append(aa);
+            StringBuilder builder = new StringBuilder();
+            if(includePound)
+            {
+                builder.Append("#");
+            }
+            builder.Append(rr).Append(gg).Append(bb).Append(aa);
             return builder.ToString();
         }
 
