@@ -18,29 +18,25 @@ This package is still very much a work and progress and will grow as I develop/o
 
 ## ![PieTility_Logo_32x32](https://user-images.githubusercontent.com/18089889/124425089-aebfbc00-dd2d-11eb-8dde-23aa51ebffcd.png) Features
 
-## Gameplay
+### Gameplay
 
-- ### Bezier Curve Editor/Follower
+- **Bezier Curve Editor/Follower**
 
 ## Analytics/Testing
 
-- ### Customizable Logger
-
-- ### Realtime Code Debug Label
+- **Customizable Logger**
+- **Realtime Code Debug Label**
 
 ## General Utilities
 
-- ### Destroy Timer
-
-- ### Rotate Over Time
-
-- ### Normal Visualizer
-
-- ### MonoBehaviourSingleton
+- **Destroy Timer**
+- **Rotate Over Time**
+- **Normal Visualizer**
+- **MonoBehaviourSingleton**
 
 ## To add
 
-- [ ] Object Pooling
+- [ ] Object Pooling with automated pool size learning
 - [x] Reflective Debug Label
 - [ ] Orbital Mechanics
 - [ ] Runtime Console
