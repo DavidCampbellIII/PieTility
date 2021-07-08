@@ -42,3 +42,4 @@ This package is still very much a work and progress and will grow as I develop/o
 - [ ] Runtime Console
 - [ ] Demo scenes
 - [ ] Coroutine Tracker
+- [ ] Reorganize Utilities.cs (put extensions in separate file, break up different kinds of utilities into different files etc.)
