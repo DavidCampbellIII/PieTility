@@ -42,8 +42,11 @@ TODO
 - **Normal Visualizer**
 - **MonoBehaviourSingleton**
 
-## To add
+## TODO
 
+- [ ] Remove MyBox dependency
+- [ ] Group into programmer tools and  Unity components/prefabs
+- [ ] ChanceGenerator
 - [ ] Object Pooling with automated pool size learning
 - [x] Reflective Debug Label
 - [ ] Orbital Mechanics
